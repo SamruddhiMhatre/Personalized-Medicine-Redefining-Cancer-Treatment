@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Classes</title>
+	<title>Class</title>
 	<link rel="stylesheet" href="{{ url_for('static', filename='class.css') }}">
 </head>
 <body>
@@ -66,25 +66,17 @@
 
 	<div id="main">
 		 <div class="login">
-   <h1></h1>
+   <h1>About Classes</h1>
 
 
 
-
+   <center><img src="{{ url_for('static', filename='class.png') }}"></center>
 
 			 <br>
 			 <br>
-   <font size="4"><p>A lot has been said during the past several years about how precision medicine and, more concretely, how genetic testing is going to disrupt the way diseases like cancer are treated.
+   <font size="4"><p>The classes represent different levels of whether or not the variant is a driver or a passenger mutation and not the type of cancer.
 
-But this is only partially happening due to the huge amount of manual work still required. Memorial Sloan Kettering Cancer Center (MSKCC) launched this competition, accepted by the NIPS 2017 Competition Track,  because we need your help to take personalized medicine to its full potential.
-
-
-
-Once sequenced, a cancer tumor can have thousands of genetic mutations. But the challenge is distinguishing the mutations that contribute to tumor growth (drivers) from the neutral mutations (passengers).
-
-Currently this interpretation of genetic mutations is being done manually. This is a very time-consuming task where a clinical pathologist has to manually review and classify every single genetic mutation based on evidence from text-based clinical literature.
-
-For this competition MSKCC is making available an expert-annotated knowledge base where world-class researchers and oncologists have manually annotated thousands of mutations.</p>
+MSKCC has divided the classes into 9 numbers of classes where the initial classes starting from 1 has majority of suppressors (cancer preventing genes) and as we move higher, the number of drivers increases as the class number increases.</p>
    </font>
      <!-- Main Input For Receiving Query to our ML -->
 
